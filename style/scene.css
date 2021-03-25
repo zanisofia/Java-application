@@ -1,0 +1,62 @@
+
+/**
+ * StyleSheet 
+ * @author Rodolfi Matilde
+ */
+
+.scene {
+    -fx-padding: 15;
+    -fx-background-color: #e6fffa;
+}
+
+.conteiner {
+    -fx-padding: 10;
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-width: 2;
+    -fx-border-color: #0099cc;
+    -fx-effect: dropshadow( gaussian , #80bfff, 15, 0, 5, 5);
+}
+
+.button {
+    -fx-padding: 5;
+    -fx-background-color: #e6f9ff;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-width: 2;
+    -fx-border-color: #0099cc;
+    -fx-effect: dropshadow(gaussian , #80bfff, 5, 0, 3, 3);
+}
+
+.buttonOver{
+    -fx-padding: 5;
+    -fx-background-color: #0099cc;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-width: 2;
+    -fx-border-color: #0099cc;
+    -fx-effect: dropshadow(gaussian , #80bfff, 5, 0, 3, 3);
+}
+
+.title {
+    -fx-font-size: 60;
+    -fx-font-family: "Cooper Black";
+    -fx-fill: #0099cc;
+    -fx-stroke: black;
+    -fx-stroke-width: 2;
+}
+
+.text {
+    -fx-font-size: 13;
+    -fx-font-family: Arial;
+    -fx-fill: black;
+}
+
+.array {
+    -fx-font-size: 15;
+    -fx-padding: 5;
+    -fx-font-family: Arial;
+    -fx-fill: black;
+    -fx-border-color: #0099cc;
+}
